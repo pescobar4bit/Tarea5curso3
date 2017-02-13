@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_pantalla__acerca_de"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context="com.pescobar.tarea4_curso3.pojo.Pantalla_AcercaDe">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:text="@string/txtTituloAcercaDe"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="40dp"
+        android:textStyle="bold"
+        android:id="@+id/tituloAcerca"
+        android:textAlignment="center" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/imgCorreo"
+        android:src="@drawable/android_geek"/>
+    <TextView
+        android:text="@string/txtMinombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:id="@+id/tituloNombre"
+        android:textAlignment="center" />
+    <TextView
+        android:text="@string/txtTitulo2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:id="@+id/tituloCurso"
+        android:textAlignment="center" />
+    <TextView
+        android:text="@string/txtTitulo3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:id="@+id/tituloPais"
+        android:textAlignment="center" />
+
+
+</LinearLayout>
+
+
+
+</RelativeLayout>

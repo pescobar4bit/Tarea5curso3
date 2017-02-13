@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Petagram</string>
+    <string name="texto_menuContacto">Contacto</string>
+    <string name="texto_menuAcercaDe">Acerca de</string>
+    <string name="texto_btnFavoritas">5</string>
+    <string name="txtNombre">Nombre</string>
+    <string name="txtCorreo">Correo electrónico</string>
+    <string name="txtMensaje">Mensaje</string>
+    <string name="txtBtnEnviarMensaje">Enviar Comentario</string>
+    <string name="txtTituloSolicitudDatos">Complete los datos</string>
+    <string name="txtTituloAcercaDe">Acerca de...</string>
+    <string name="txtMinombre">+Pablo César Escobar</string>
+    <string name="txtTitulo2">+Curso de Desarrollo de aplicaciones Android</string>
+    <string name="txtTitulo3">+Quetzaltenango,Guatemala</string>
+    <string name="likesmascota">5</string>
+    <string name="menu1">Menu1</string>
+    <string name="menu2">Menu2</string>
+    <string name="nombremascotas">Vegas</string>
+</resources>

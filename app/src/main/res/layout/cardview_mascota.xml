@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/cvMascota"
+    android:layout_marginBottom="@dimen/activity_vertical_margin"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    card_view:cardCornerRadius="@dimen/corner_radius_cardview"
+    >
+
+    <LinearLayout
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:orientation="vertical"
+android:padding="@dimen/activity_horizontal_margin"
+        android:weightSum="1">
+
+
+        <ImageView
+            android:id="@+id/imgFoto"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/perro1"
+            android:scaleType="fitCenter"
+            android:layout_gravity="center_horizontal"
+         />
+
+        <TableLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:stretchColumns="1">
+    <TableRow>
+        <ImageButton
+
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:id="@+id/btnHuesoBlanco"
+            android:background="@drawable/hueso_blanco"
+            android:layout_gravity="right"
+
+
+            />
+        <TextView
+            android:id="@+id/txtNombreMascota"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/nombremascotas"
+            android:textSize="@dimen/nombre_card_view"
+            android:padding="5dp"
+            android:textStyle="bold"
+            android:layout_gravity="center_vertical"
+            />
+
+        <TextView
+            android:id="@+id/txtLikesMascota"
+            android:layout_width="20dp"
+            android:layout_height="wrap_content"
+            android:text="@string/likesmascota"
+            android:textSize="17sp"
+            android:layout_gravity="center_vertical"
+            android:textStyle="normal|bold"
+            android:layout_marginLeft="130dp"
+            />
+
+
+        <ImageButton
+            android:layout_column="1"
+            android:layout_width="38dp"
+            android:layout_height="38dp"
+            android:id="@+id/btnHuesoNaranja"
+            android:background="@drawable/hueso_amarillo"
+
+            />
+
+    </TableRow>
+
+
+
+
+</TableLayout>
+
+
+</LinearLayout>
+</android.support.v7.widget.CardView>
